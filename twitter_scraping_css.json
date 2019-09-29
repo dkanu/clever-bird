@@ -1,0 +1,16 @@
+{
+  "tweetdeck": {
+    "date.selector": "#container > div > section:nth-child(%s) time > a",
+    "link.selector": "#container > div > section:nth-child(%s) time > a",
+    "author.selector": "#container > div > section:nth-child(%s) div[class='nbfc '] > span > span",
+    "replies.selector": "#container > div > section:nth-child(%s) span.pull-right.icon-reply-toggle.margin-l--2.margin-t--1.txt-size--12.js-reply-count.reply-count",
+    "retweets.selector": "#container > div > section:nth-child(%s) span.pull-right.icon-retweet-toggle.margin-l--3.margin-t--1.txt-size--12.js-retweet-count.retweet-count",
+    "favorites.selector": "#container > div > section:nth-child(%s) span.pull-right.icon-favorite-toggle.margin-l--2.margin-t--1.txt-size--12.js-like-count.like-count"
+  },
+  
+  "twitter.analytics": {
+    "imp.selector": "#tweet-activity-container > ul div.tweet-activity-data.impressions.text-right.col-md-1",
+    "eng.selector": "#tweet-activity-container > ul div.tweet-activity-data.metric.text-right.col-md-2",
+    "url.selector": "#tweet-activity-container > ul span.tweet-created-at > a"
+  }
+}
